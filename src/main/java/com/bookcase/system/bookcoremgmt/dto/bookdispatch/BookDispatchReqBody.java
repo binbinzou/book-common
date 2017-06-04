@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookcoremgmt.dto.bookdispatch;
+
+import java.sql.Timestamp;
+
+import lombok.Data;
+
 /**
  * ClassName:BookDispatchReqBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,22 @@ package com.bookcase.system.bookcoremgmt.dto.bookdispatch;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookDispatchReqBody {
+
+	private String bookcaseFromid;
+
+	private String bookcaseToid;
+
+	private String bookmsgId;
+
+	private String carrier;
+
+	private String message;
+
+	private String proposer;
+
+	private short type;
 
 }
 

@@ -8,6 +8,9 @@
 */
 
 package com.bookcase.system.bookcoremgmt.otd.bookdispatch;
+
+import java.sql.Timestamp;
+import lombok.Data;
 /**
  * ClassName:BookDispatchRspBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +21,32 @@ package com.bookcase.system.bookcoremgmt.otd.bookdispatch;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookDispatchRspBody {
 
+	private String id;
+
+	private String bookcaseFromid;
+
+	private String bookcaseToid;
+
+	private String bookmsgId;
+
+	private String carrier;
+
+	private Timestamp createTime;
+
+	private String creator;
+
+	private String message;
+
+	private String proposer;
+
+	private short status;
+
+	private short type;
+
+	private Timestamp updateTime;
+	
 }
 

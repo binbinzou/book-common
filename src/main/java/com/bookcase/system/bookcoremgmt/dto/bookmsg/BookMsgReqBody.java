@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookcoremgmt.dto.bookmsg;
+
+import java.sql.Timestamp;
+
+import lombok.Data;
+
 /**
  * ClassName:BookMsgReqBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,30 @@ package com.bookcase.system.bookcoremgmt.dto.bookmsg;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookMsgReqBody {
+
+	private String bookCommonmsgId;
+
+	private String booklendOrderid;
+
+	private float deposit;
+
+	private String firstBookcaseId;
+
+	private String lendUserid;
+
+	private float onedayPriiceOverdue;
+
+	private float onedayPriiceUnoverdue;
+
+	private int reNewday;
+
+	private String realBookcaseId;
+
+	private String rentUserid;
+
+	private int unoverdueMaxday;
 
 }
 

@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookcoremgmt.dto.bookmsg;
+
+import java.util.List;
+
+import lombok.Data;
+
 /**
  * ClassName:BookMsgReqParam <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,10 @@ package com.bookcase.system.bookcoremgmt.dto.bookmsg;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookMsgReqParam {
 
+	private List<String> ids;
+	
 }
 

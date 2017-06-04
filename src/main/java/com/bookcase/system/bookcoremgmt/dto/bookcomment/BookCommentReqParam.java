@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookcoremgmt.dto.bookcomment;
+
+import java.util.List;
+
+import lombok.Data;
+
 /**
  * ClassName:BookCommentReqParam <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,10 @@ package com.bookcase.system.bookcoremgmt.dto.bookcomment;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookCommentReqParam {
 
+	private List<String> ids;
+	
 }
 

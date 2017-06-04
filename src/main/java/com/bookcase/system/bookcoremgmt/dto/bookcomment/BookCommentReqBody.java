@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookcoremgmt.dto.bookcomment;
+
+import java.sql.Timestamp;
+
+import lombok.Data;
+
 /**
  * ClassName:BookCommentReqBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,16 @@ package com.bookcase.system.bookcoremgmt.dto.bookcomment;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookCommentReqBody {
 
+	private String bookCommonmsgId;
+
+	private String content;
+
+	private int score;
+
+	private short usefullCnt;
+	
 }
 
