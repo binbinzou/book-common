@@ -8,6 +8,9 @@
 */
 
 package com.bookcase.system.bookordermgmt.dto.booklendorder;
+
+import lombok.Data;
+
 /**
  * ClassName:BookLendOrderReqBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +21,10 @@ package com.bookcase.system.bookordermgmt.dto.booklendorder;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookLendOrderReqBody {
 
+	private int bookCnt;
+	
 }
 

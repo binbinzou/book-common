@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookordermgmt.dto.bookborroworderdetail;
+
+import java.sql.Timestamp;
+
+import lombok.Data;
+
 /**
  * ClassName:BookBorroowOrderDetailReqBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,16 @@ package com.bookcase.system.bookordermgmt.dto.bookborroworderdetail;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookBorrowOrderDetailReqBody {
+
+	private String bookborrowOrderid;
+
+	private String bookcaseFromid;
+
+	private String bookcaseToid;
+
+	private String bookmsgId;
 
 }
 

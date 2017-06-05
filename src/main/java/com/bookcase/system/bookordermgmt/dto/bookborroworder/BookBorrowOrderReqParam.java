@@ -8,6 +8,11 @@
 */
 
 package com.bookcase.system.bookordermgmt.dto.bookborroworder;
+
+import java.util.List;
+
+import lombok.Data;
+
 /**
  * ClassName:BookBorrowOrderReqParam <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +23,10 @@ package com.bookcase.system.bookordermgmt.dto.bookborroworder;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookBorrowOrderReqParam {
 
+	private List<String> ids;
+	
 }
 

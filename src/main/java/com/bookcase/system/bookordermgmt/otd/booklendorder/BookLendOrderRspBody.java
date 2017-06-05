@@ -8,6 +8,17 @@
 */
 
 package com.bookcase.system.bookordermgmt.otd.booklendorder;
+
+import java.sql.Timestamp;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import lombok.Data;
+
+import org.hibernate.annotations.GenericGenerator;
+
 /**
  * ClassName:BookLendRspBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +29,21 @@ package com.bookcase.system.bookordermgmt.otd.booklendorder;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookLendOrderRspBody {
+
+	private String id;
+
+	private int bookCnt;
+
+	private Timestamp createTime;
+
+	private String creator;
+
+	private short status;
+
+	private Timestamp updateTime;
+
 
 }
 

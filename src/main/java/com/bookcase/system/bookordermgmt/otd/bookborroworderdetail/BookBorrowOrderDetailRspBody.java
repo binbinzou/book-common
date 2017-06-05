@@ -8,6 +8,10 @@
 */
 
 package com.bookcase.system.bookordermgmt.otd.bookborroworderdetail;
+
+import java.sql.Timestamp;
+import lombok.Data;
+
 /**
  * ClassName:BookBorrowOrderDetailRspBody <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -18,7 +22,26 @@ package com.bookcase.system.bookordermgmt.otd.bookborroworderdetail;
  * @since    JDK 1.8
  * @see 	 
  */
+@Data
 public class BookBorrowOrderDetailRspBody {
 
+	private String id;
+
+	private String bookborrowOrderid;
+
+	private String bookcaseFromid;
+
+	private String bookcaseToid;
+
+	private String bookmsgId;
+
+	private Timestamp createTime;
+
+	private String creator;
+
+	private short status;
+
+	private Timestamp updateTime;
+	
 }
 
