@@ -43,6 +43,8 @@ public class BookCommonMsgReqBody {
 	private short readOvertime;
 
 	private String translatorId;
+	
+	private String booktypeId;
 
 }
 

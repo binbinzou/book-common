@@ -53,5 +53,7 @@ public class BookCommonMsgRspBody {
 
 	private Timestamp updateTime;
 	
+	private String booktypeId;
+	
 }
 

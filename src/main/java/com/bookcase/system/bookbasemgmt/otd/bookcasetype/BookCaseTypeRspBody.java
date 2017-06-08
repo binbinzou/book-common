@@ -13,6 +13,11 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 
+import java.util.List;
+
+import com.bookcase.system.bookbasemgmt.dto.bookcasetypelayerinside.BookCaseTypeLayerInsideReqBody;
+import com.bookcase.system.bookbasemgmt.otd.bookcasetypelayerinside.BookCaseTypeLayerInsideRspBody;
+
 import lombok.Data;
 
 /**
@@ -50,6 +55,7 @@ public class BookCaseTypeRspBody {
 
 	private float wide;
 
+	private List<BookCaseTypeLayerInsideRspBody> layerInsideRspBodies;
 	
 }
 

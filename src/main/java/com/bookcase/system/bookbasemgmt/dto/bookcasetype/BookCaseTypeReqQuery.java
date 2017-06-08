@@ -11,13 +11,11 @@ package com.bookcase.system.bookbasemgmt.dto.bookcasetype;
 
 import java.util.List;
 
-import com.bookcase.system.bookbasemgmt.dto.bookcasetypelayerinside.BookCaseTypeLayerInsideReqBody;
-
 import lombok.Data;
 
 /**
- * ClassName:BookCaseTypeReqBody <br/>
- * Function: 请求的时候实体类的. <br/>
+ * ClassName:BookCaseTypeReqParam <br/>
+ * Function: 请求的时候请求参数类的. <br/>
  * Reason:	 TODO ADD REASON. <br/>
  * Date:     2017年5月6日 下午12:55:35 <br/>
  * @author   binbin
@@ -26,15 +24,9 @@ import lombok.Data;
  * @see 	 
  */
 @Data
-public class BookCaseTypeReqBody {
+public class BookCaseTypeReqQuery {
 
 	private String name;
-	private int boxCount;
-	private float length;
-	private float wide;
-	private float height;
-	
-	private List<BookCaseTypeLayerInsideReqBody> layerInsideReqBodies;
 	
 }
 

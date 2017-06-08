@@ -11,13 +11,8 @@ package com.bookcase.system.bookordermgmt.otd.booklendorder;
 
 import java.sql.Timestamp;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
 import lombok.Data;
 
-import org.hibernate.annotations.GenericGenerator;
 
 /**
  * ClassName:BookLendRspBody <br/>
