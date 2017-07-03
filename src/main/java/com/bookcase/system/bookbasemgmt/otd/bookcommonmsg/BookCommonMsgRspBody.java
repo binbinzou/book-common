@@ -43,8 +43,6 @@ public class BookCommonMsgRspBody {
 
 	private short pageCnt;
 
-	private String publishHome;
-
 	private short readOvertime;
 
 	private short status;
